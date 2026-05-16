@@ -1,0 +1,14 @@
+fastapi[standard]
+pydantic
+pydantic-settings
+sqlalchemy[asyncio]
+asyncpg
+python-dotenv
+python-jose[cryptography]
+passlib[bcrypt]
+httpx
+google-auth
+requests
+aiosqlite
+aiosmtplib
+twilio

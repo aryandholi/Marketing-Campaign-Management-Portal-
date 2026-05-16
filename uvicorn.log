@@ -1,0 +1,31 @@
+INFO:     Will watch for changes in these directories: ['C:\\Users\\dholi\\.gemini\\antigravity\\scratch\\campaign-portal']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [23312] using WatchFiles
+INFO:     Started server process [23640]
+INFO:     Waiting for application startup.
+2026-05-16 18:03:30,687 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2026-05-16 18:03:30,687 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("users")
+2026-05-16 18:03:30,687 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-05-16 18:03:30,689 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("contact_profiles")
+2026-05-16 18:03:30,689 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-05-16 18:03:30,717 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("campaigns")
+2026-05-16 18:03:30,717 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-05-16 18:03:30,719 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("recipient_lists")
+2026-05-16 18:03:30,719 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-05-16 18:03:30,721 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("message_instances")
+2026-05-16 18:03:30,721 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-05-16 18:03:30,723 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("delivery_attempts")
+2026-05-16 18:03:30,723 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-05-16 18:03:30,724 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("engagement_events")
+2026-05-16 18:03:30,724 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-05-16 18:03:30,726 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("campaign_rules")
+2026-05-16 18:03:30,726 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-05-16 18:03:30,727 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("channel_configurations")
+2026-05-16 18:03:30,728 INFO sqlalchemy.engine.Engine [raw sql] ()
+2026-05-16 18:03:30,729 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     Application startup complete.
+{"timestamp": "2026-05-16T12:33:55.402770+00:00", "level": "INFO", "logger": "campaign_portal", "message": "\u2192 GET /api/health", "correlation_id": "c5954b77-d723-4dd9-99b9-be3dc8ec2762", "module": "index", "function": "request_logging_middleware", "line": 104, "request_method": "GET", "request_path": "/api/health"}
+{"timestamp": "2026-05-16T12:33:55.404993+00:00", "level": "INFO", "logger": "campaign_portal", "message": "\u2190 GET /api/health [200] 2.32ms", "correlation_id": "c5954b77-d723-4dd9-99b9-be3dc8ec2762", "module": "index", "function": "request_logging_middleware", "line": 116, "request_method": "GET", "request_path": "/api/health", "status_code": 200, "duration_ms": 2.32}
+INFO:     127.0.0.1:52339 - "GET /api/health HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'test_e2e.py'. Reloading...
+ 
